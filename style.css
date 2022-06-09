@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 5000px;
+    margin: auto;
+}
+.b1{
+    width: 100%;
+    height: 50px;
+    background-color:grey;
+}
+.b11{
+    width: 50%;
+    height: 50px;
+    background-color: grey;
+    margin: 40px auto;
+}
+
+.twobox{
+    width: 100%;
+    height: 500px;
+}
+.box1{
+    background-color: grey;
+    width: 49%;
+    height: 500px;
+    float: left;
+}
+.box2{
+    background-color: grey;
+    width: 49%;
+    height: 500px;
+    float: right;
+}
+
+.b12{
+    width: 60%;
+    height: 50px;
+    background-color: grey;
+    margin: 40px auto;
+}
+
+.eightbox{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    clear: both;
+}
+.eb1{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: left;
+}
+.eb2{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: left;
+    margin-left: 1.33%;
+}
+.eb3{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: left;
+    margin-left: 1.33%;
+}
+.eb4{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: right;
+}
+.eb5{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: left;
+    margin-top: 14px;
+}
+.eb6{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: left;
+    margin-left: 1.33%;
+    margin-top: 14px;
+}
+.eb7{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: left;
+    margin-left: 1.33%;
+    margin-top: 14px;
+}
+.eb8{
+    width: 24%;
+    height: 243px;
+    background-color: grey;
+    float: right;
+    margin-top: 14px;
+}
+
+.b13{
+    width: 70%;
+    height: 50px;
+    background-color: grey;
+    margin: 40px auto;
+}
+
+.main{
+    width: 100%;
+    height: 600px;
+    border: 60px solid grey;
+}
+
+.main1{
+width: 30%;
+border: 20px solid white;
+float: left;
+margin-right: 3.33%;
+
+}
+.main11{
+width: 100%;
+height: 40px;
+background-color: grey;
+margin-bottom: 20px;
+}
+.main12{
+width: 100%;
+height: 180px;
+background-color: grey;
+margin-bottom: 20px;
+}
+.main13{
+width: 100%;
+height: 180px;
+background-color: grey;
+}
+
+.main2{
+    width: 30%;
+    border: 20px solid white;
+    float: left;
+    margin-right: 3.33%;
+    }
+    .main21{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    margin-bottom: 20px;
+    }
+    .main22{
+    width: 100%;
+    height: 180px;
+    background-color: grey;
+    margin-bottom: 20px;
+    }
+    .main23{
+    width: 100%;
+    height: 180px;
+    background-color: grey;
+    }
+    
+    .main3{
+        width: 30%;
+        border: 20px solid white;
+        float: right;
+        margin-right: 3.33%;
+        }
+        .main31{
+        width: 100%;
+        height: 40px;
+        background-color: grey;
+        margin-bottom: 20px;
+        }
+        .main32{
+        width: 100%;
+        height: 180px;
+        background-color: grey;
+        margin-bottom: 20px;
+        }
+        .main33{
+        width: 100%;
+        height: 180px;
+        background-color: grey;
+        }
+
+.b14{
+    width: 30%;
+    height: 50px;
+    background-color: grey;
+    margin: 40px auto;
+} 
+
+.fb1{
+    width: 50%;
+    height: 50px;
+    background-color: grey;
+    margin: auto;
+}
+.fb2{
+    width: 50%;
+    height: 50px;
+    background-color: grey;
+    margin: 10px auto;
+}
+.fb3{
+    width: 50%;
+    height: 50px;
+    background-color: grey;
+    margin: auto;
+}
+.fb4{
+    width: 50%;
+    height: 220px;
+    background-color: grey;
+    margin: 10px auto;
+}
+.fb5{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+.fb51{
+    width: 48%;
+    background-color: grey;
+    height: 50px;
+    float: left;
+}
+.fb52{
+    width: 48%;
+    background-color: grey;
+    height: 50px;
+    float: right;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    margin-top: 60px;
+    border: 20px solid grey;
+}
+.ft1{
+    width:51% ;
+height: 210px;
+    background-color: white;
+    float: left;
+    border-right: 20px solid grey;
+}
+.ft2{
+    width:49% ;
+    height: 210px;
+    background-color: white;
+    float: right;
+}
