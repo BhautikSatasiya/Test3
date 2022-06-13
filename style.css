@@ -1,261 +1,185 @@
-*{
-    box-sizing: border-box;
-}
-.container{
-    width: 80%;
-    height: 5000px;
-    margin: auto;
-}
-.b1{
-    width: 100%;
-    height: 50px;
-    background-color:grey;
-}
-.b11{
-    width: 50%;
-    height: 50px;
-    background-color: grey;
-    margin: 40px auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.twobox{
-    width: 100%;
-    height: 500px;
+.main {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }
-.box1{
-    background-color: grey;
-    width: 49%;
-    height: 500px;
-    float: left;
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
 }
-.box2{
-    background-color: grey;
-    width: 49%;
-    height: 500px;
-    float: right;
-}
-
-.b12{
-    width: 60%;
-    height: 50px;
-    background-color: grey;
-    margin: 40px auto;
+.head1 {
+  width: 50%;
+  height: 50px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.eightbox{
-    width: 90%;
-    height: 500px;
-    margin: auto;
-    clear: both;
+.box3 {
+  width: 100%;
+  height: 400px;
 }
-.eb1{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: left;
+.box3 .num1 {
+  width: 48%;
+  height: 400px;
+  background-color: grey;
+  float: left;
+  padding-right: 1%;
 }
-.eb2{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: left;
-    margin-left: 1.33%;
+.box3 .num2 {
+  width: 48%;
+  height: 400px;
+  background-color: grey;
+  float: right;
+  padding-left: 1%;
 }
-.eb3{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: left;
-    margin-left: 1.33%;
-}
-.eb4{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: right;
-}
-.eb5{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: left;
-    margin-top: 14px;
-}
-.eb6{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: left;
-    margin-left: 1.33%;
-    margin-top: 14px;
-}
-.eb7{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: left;
-    margin-left: 1.33%;
-    margin-top: 14px;
-}
-.eb8{
-    width: 24%;
-    height: 243px;
-    background-color: grey;
-    float: right;
-    margin-top: 14px;
+.head2 {
+  width: 60%;
+  height: 50px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.b13{
-    width: 70%;
-    height: 50px;
-    background-color: grey;
-    margin: 40px auto;
+.eight {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 400px;
+}
+.eight .bo1 {
+  float: left;
+  width: 23%;
+  height: 180px;
+  background-color: grey;
+  margin-right: 2.66%;
+  margin-bottom: 40px;
+}
+.eight .bo2 {
+  float: left;
+  width: 23%;
+  height: 180px;
+  background-color: grey;
+  margin-right: 2.66%;
+  margin-bottom: 40px;
+}
+.eight .bo3 {
+  float: left;
+  width: 23%;
+  height: 180px;
+  background-color: grey;
+  margin-right: 2.66%;
+  margin-bottom: 40px;
+}
+.eight .bo4 {
+  float: left;
+  width: 23%;
+  height: 180px;
+  background-color: grey;
+  margin-bottom: 40px;
 }
 
-.main{
-    width: 100%;
-    height: 600px;
-    border: 60px solid grey;
+.head3 {
+  width: 70%;
+  height: 50px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.main1{
-width: 30%;
-border: 20px solid white;
-float: left;
-margin-right: 3.33%;
-
+.mains {
+  width: 100%;
+  height: 645px;
+  border: 90px solid gray;
 }
-.main11{
-width: 100%;
-height: 40px;
-background-color: grey;
-margin-bottom: 20px;
+.mains .b1 {
+  float: left;
+  margin: 20px 20px 20px 20px;
+  width: 30%;
+  height: 40px;
+  background-color: grey;
 }
-.main12{
-width: 100%;
-height: 180px;
-background-color: grey;
-margin-bottom: 20px;
+.mains .b2 {
+  float: left;
+  margin: 20px 20px 20px 20px;
+  width: 30%;
+  height: 150px;
+  background-color: grey;
 }
-.main13{
-width: 100%;
-height: 180px;
-background-color: grey;
-}
-
-.main2{
-    width: 30%;
-    border: 20px solid white;
-    float: left;
-    margin-right: 3.33%;
-    }
-    .main21{
-    width: 100%;
-    height: 40px;
-    background-color: grey;
-    margin-bottom: 20px;
-    }
-    .main22{
-    width: 100%;
-    height: 180px;
-    background-color: grey;
-    margin-bottom: 20px;
-    }
-    .main23{
-    width: 100%;
-    height: 180px;
-    background-color: grey;
-    }
-    
-    .main3{
-        width: 30%;
-        border: 20px solid white;
-        float: right;
-        margin-right: 3.33%;
-        }
-        .main31{
-        width: 100%;
-        height: 40px;
-        background-color: grey;
-        margin-bottom: 20px;
-        }
-        .main32{
-        width: 100%;
-        height: 180px;
-        background-color: grey;
-        margin-bottom: 20px;
-        }
-        .main33{
-        width: 100%;
-        height: 180px;
-        background-color: grey;
-        }
-
-.b14{
-    width: 30%;
-    height: 50px;
-    background-color: grey;
-    margin: 40px auto;
-} 
-
-.fb1{
-    width: 50%;
-    height: 50px;
-    background-color: grey;
-    margin: auto;
-}
-.fb2{
-    width: 50%;
-    height: 50px;
-    background-color: grey;
-    margin: 10px auto;
-}
-.fb3{
-    width: 50%;
-    height: 50px;
-    background-color: grey;
-    margin: auto;
-}
-.fb4{
-    width: 50%;
-    height: 220px;
-    background-color: grey;
-    margin: 10px auto;
-}
-.fb5{
-    width: 50%;
-    height: 50px;
-    margin: auto;
-}
-.fb51{
-    width: 48%;
-    background-color: grey;
-    height: 50px;
-    float: left;
-}
-.fb52{
-    width: 48%;
-    background-color: grey;
-    height: 50px;
-    float: right;
+.mains .b3 {
+  float: left;
+  margin: 20px 20px 20px 20px;
+  width: 30%;
+  height: 150px;
+  background-color: grey;
 }
 
-.footer{
-    width: 100%;
-    height: 250px;
-    margin-top: 60px;
-    border: 20px solid grey;
+.head4 {
+  width: 30%;
+  height: 50px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.ft1{
-    width:51% ;
-height: 210px;
-    background-color: white;
-    float: left;
-    border-right: 20px solid grey;
+
+.head5 {
+  width: 60%;
+  height: 50px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.ft2{
-    width:49% ;
-    height: 210px;
-    background-color: white;
-    float: right;
+.head6 {
+  width: 60%;
+  height: 200px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.head7 {
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.head7 .subhead1 {
+  float: left;
+  background-color: grey;
+  width: 48%;
+  height: 50px;
+  margin-right: 2%;
+  margin-left: 0%;
+}
+.head7 .subhead2 {
+  float: left;
+  background-color: grey;
+  width: 48%;
+  height: 50px;
+  margin-left: 2%;
+}
+
+.footer {
+  width: 1685px;
+  height: 200px;
+}
+.footer .part1 {
+  float: left;
+  width: 45%;
+  height: 150px;
+  background-color: whitesmoke;
+  border: 20px solid gray;
 }
